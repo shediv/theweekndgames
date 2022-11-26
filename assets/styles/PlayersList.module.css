@@ -1,0 +1,100 @@
+.background{
+  background: #1e242b;
+  height: 80rem;
+}
+
+.gridView {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 2rem;
+  /* height: 80rem; */
+}
+
+.cardView {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 25rem;
+  color: #f0ffff;
+  margin-top: 0.5rem;
+  border: 3px solid #106a61;
+}
+
+.registerView {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;  
+  justify-content: center;
+  background: #1e242b;
+}
+
+.registerLayout {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 30rem;
+  color: #f0ffff;
+  padding: 2rem;
+}
+
+.displayNone {
+  display: none;
+}
+
+.tagLine {
+  font-family: cursive;
+}
+
+.MuiInputBase-root {
+  color: #fff !important;
+}
+
+.mb2 {
+  margin-bottom: 3rem;
+}
+
+.picture {
+  height: 15rem;
+  max-width: 25rem;
+}
+
+.paymentLink {
+  color: #0aaa3c;
+  text-decoration: underline;
+}
+
+.searchBar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: antiquewhite;
+  margin-bottom: 0.5rem;
+}
+
+.paddingRight{ 
+  padding-right: 1rem;
+}
+
+.totalCount {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.homeMainSecView {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+  gap: 1rem;  
+  justify-content: center;
+  background: #146bcf;
+  background-image: url('/assets/1.png');
+  background-size: cover;
+}
+
+.fontWeight {
+  font-weight: 600;
+}

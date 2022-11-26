@@ -1,0 +1,53 @@
+{
+  "name": "vct_2023",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.8.4",
+    "axios": "^0.21.1",
+    "firebase": "^9.9.0",
+    "font-awesome": "^4.7.0",
+    "next": "12.2.2",
+    "next-images": "^1.8.1",
+    "next-themes": "^0.2.0",
+    "otp-input-react": "^0.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-i18next": "^12.0.0",
+    "react-icons": "^4.4.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-scrollbar": "^0.5.6",
+    "react-toastify": "^9.0.5",
+    "uuid": "^8.3.2",
+    "zustand": "^4.1.4"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  },
+  "peerDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.21.1",
+    "next": "^12.0.7",
+    "next-images": "^1.8.4",
+    "next-transpile-modules": "^9.0.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-lazyload": "3.2.0"
+  }
+}
