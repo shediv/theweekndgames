@@ -56,7 +56,7 @@
 
 .picture {
   height: 15rem;
-  max-width: 25rem;
+  background-size: contain !important;
 }
 
 .paymentLink {
@@ -97,4 +97,11 @@
 
 .fontWeight {
   font-weight: 600;
+}
+
+@media screen and (min-width: 750px) {
+  .homeMainSecView {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

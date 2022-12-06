@@ -7,8 +7,8 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>The Weeknd Sports</title>
-        <meta name="description" content="The Weeknd Sports - Get all sports news" />
+        <title>The Weeknd Games</title>
+        <meta name="description" content="The Weeknd Games - Get all sports news" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

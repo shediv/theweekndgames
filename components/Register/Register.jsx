@@ -68,6 +68,7 @@ const Register = ({ theme = 'dark' }) => {
         }
 
         setUploading(true);
+        window.scrollTo(0, 0);
         const storageRef = ref(storage, `/images/${Date.now()}${formData.profilePic.name}`);
 
         const uploadImage = uploadBytesResumable(storageRef, formData.profilePic);
@@ -123,7 +124,7 @@ const Register = ({ theme = 'dark' }) => {
                     { completed ? 
                         <div className={styles.form}>
                             <h1 className={styles.head}>{PAYMENTPAGE.HEADER}</h1>
-                            <p>Please make payment on <a className={styles.paymentLink} href={PAYMENTLINK}>{PAYMENTNUMBER}</a> for completion. </p><br/>
+                            <p>{PAYMENTPAGE.NOTE}</p><br/>
                         </div>
                         :
                         <div className={styles.form}>

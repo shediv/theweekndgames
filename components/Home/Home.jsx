@@ -30,7 +30,7 @@ const Home = () => {
                             <CardActionArea>
                                 <CardMedia
                                     className={styles.picture}
-                                    image={"/assets/home.webp"}
+                                    image={"/assets/VCT_Logo_Png.png"}
                                     title={"Valpoi Champions Trophy"}
                                 />
                                 <CardContent>
