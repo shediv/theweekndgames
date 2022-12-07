@@ -40,7 +40,7 @@ const Home = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <Button onClick={handleSelected} size="medium" color="primary" variant="contained">
+                            <Button onClick={handleSelected} disabled size="medium" color="primary" variant="contained">
                                 View
                             </Button>
                             </CardActions>
